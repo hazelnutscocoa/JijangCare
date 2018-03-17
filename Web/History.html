@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+	<title>History</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Bootstrap-->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="History.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--Include JQuery: necessary for Bootstrap plugins-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!--Include bootstrap library as needed-->
+  <script src="js/bootstrap.min.js"></script>
+
+  <header>
+  <nav class="navbar navbar-pills">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="Home.html"><img src="AssignmentImage/HELPFit Logo.png" alt="logo" width="100" height="80">
+      </a>
+      </div>
+      
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left">
+          <li class="active"><a href="Home.html">Home</a></li>
+          <li><a href="TrainingSession.html">Trainer: Record Training Session</a></li>
+          <li><a href="RegisterTraining.html">Member: Register Training Session</a></li>
+          <li><a href="Review.html">Review</a></li>
+          <li><a href="History.html">History</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="Profile.html">Profie</a></li>
+          <li><a href="Start.html">Log Out</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+    <!--/.container-fluid -->
+  </nav>
+</header>
+
+<br>
+<div class="container">
+<h3>Training History</h3>
+<br>
+<div class="table-responsive">     
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Trainer Name</th>
+        <th>SessionID</th>
+        <th>Class Type</th>
+        <th>Rating</th>
+        <th>Training Session Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sherline</td>
+        <td>M053</td>
+        <td>Sport</td>
+        <td>
+        <span class="glyphicon glyphicon-star"></span>
+		    <span class="glyphicon glyphicon-star"></span>
+		    <span class="glyphicon glyphicon-star"></span>
+		    <span class="glyphicon glyphicon-star-empty"></span>
+		    <span class="glyphicon glyphicon-star-empty"></span>
+		    </td>
+      </tr>
+      <tr>
+        <td>Jaden</td>
+        <td>J068</td>
+        <td>Dance</td>
+        <td>
+        <span class="glyphicon glyphicon-star"></span>
+		    <span class="glyphicon glyphicon-star"></span>
+		    <span class="glyphicon glyphicon-star"></span>
+		    <span class="glyphicon glyphicon-star"></span>
+		    <span class="glyphicon glyphicon-star"></span>
+		    </td>
+        <td>21 Sep, 6:50 AM</td>
+      </tr>
+      <tr>
+        <td>Michael</td>
+        <td>A041</td>
+        <td>MMA</td>
+        <td>
+        <span class="glyphicon glyphicon-star"></span>
+		    <span class="glyphicon glyphicon-star"></span>
+		    <span class="glyphicon glyphicon-star-empty"></span>
+		    <span class="glyphicon glyphicon-star-empty"></span>
+		    <span class="glyphicon glyphicon-star-empty"></span>
+		    </td>
+        <td>23 Sep, 5:00 PM</td>
+      </tr>
+      <tr>
+        <td>Jennifer</td>
+        <td>C101</td>
+        <td>Sport</td>
+        <td><button type="button" class="btn btn-warning"><a href="Review.html">Rate Here</a></button></td>
+        <td>2 Oct, 4:34 PM</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+<br>
+<br>
+
+<footer class="container-pills text-center">
+HELPFit &copy; Copyright 2017</footer>
+
+</body>
+</html>

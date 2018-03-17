@@ -1,0 +1,16 @@
+.navbar-brand {
+	padding: 0px;
+}
+
+.navbar-brand>img {
+	height: 100%;
+	padding: 0px;
+	width: auto;
+}
+
+
+footer{
+	color: black;
+	padding: 10px;
+}
+

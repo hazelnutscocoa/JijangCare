@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+	<title>Training Session</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Bootstrap-->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="TrainingSession.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <!--Include JQuery: necessary for Bootstrap plugins-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!--Include bootstrap library as needed-->
+  <script src="js/bootstrap.min.js"></script>
+
+  <header>
+  <nav class="navbar navbar-pills">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="Home.html"><img src="AssignmentImage/HELPFit Logo.png" alt="logo" width="100" height="80">
+      </a>
+      </div>
+      
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left">
+          <li class="active"><a href="Home.html">Home</a></li>
+          <li><a href="TrainingSession.html">Trainer: Record Training Session</a></li>
+          <li><a href="RegisterTraining.html">Member: Register Training Session</a></li>
+          <li><a href="Review.html">Review</a></li>
+          <li><a href="History.html">History</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="Profile.html">Profile</a></li>
+          <li><a href="Start.html">Log Out</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+    <!--/.container-fluid -->
+  </nav>
+</header>
+		<div class="content_center">
+			<div class="content">
+				<div class="container_12">
+					<div class="grid_12">
+
+						<h3 class = "h3_center">Group Training Session</h3>
+						<form >
+						<table align="center">
+						<tr>
+						<th>Title:</th>
+						<th><input type="textbox" name="title" id="title" size="40" required></th>
+						<tr>
+						<tr>
+						<th>Date:</th>
+						<th align="left"><input type="date" name="traindate" ></th>
+						<tr>
+						<tr>
+						<th>Time:</th>
+						<th align="left"><input type="time" name="traintime"></th>
+						<tr>
+						<tr>
+						<th>Fee:</th>
+						<th><input type="textbox" name="fee" id="fee" size="40" required></th>
+						<tr>
+						<tr>
+						<th>Max no. of Participants:</th>
+						<th><input type="textbox" name="fee" id="fee" size="40" required></th>
+						<tr>
+						<tr>
+						<th>Class Type:</th>
+						<th align="left">
+							<input type="radio" name="classtype" value="Sport">Sport 
+							<input type="radio" name="classtype" value="Dance">Dance 
+							<input type="radio" name="classtype" value="MMA">MMA</th>
+						<tr>
+						</table>
+						<br><br>
+						<div class="button">
+						<input onclick="record();" type="submit" class="btn btn-primary btn-md" value="Record Training Session">
+						<input type="reset" class="btn btn-primary btn-md">
+						</div>
+						</form><br>
+					</div>
+				</div>
+			</div>
+		</div>
+<script type="text/javascript">
+function record(){
+  var ask = window.confirm("Your Training Session has been recorded!");
+  if (ask) {
+      window.location.href = "Home.html";
+  }
+}
+</script>
+		<br><br>
+
+<footer class="container text-center">
+HELPFit &copy; Copyright 2017</footer>
+	</body>
+</html>

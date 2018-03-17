@@ -1,0 +1,19 @@
+.navbar-brand {
+	padding: 0px;
+}
+
+.navbar-brand>img {
+	height: 100%;
+	padding: 0px;
+	width: auto;
+}
+
+.hide{
+	display: none;
+}
+
+footer{
+	background-color: #357EC7;
+	color: white;
+	padding: 10px;
+}

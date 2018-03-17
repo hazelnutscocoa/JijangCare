@@ -1,0 +1,141 @@
+<?php
+$_SESSION = array();
+session_destroy();
+
+?>
+
+<!DOCTYPE html>
+<head>
+	<title>Hello!</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Bootstrap-->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="Start.css" rel="stylesheet">
+</head>
+
+
+<body>
+  <!--Include JQuery: necessary for Bootstrap plugins-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!--Include bootstrap library as needed-->
+  <script src="js/bootstrap.min.js"></script>
+
+  <header>
+  <nav class="navbar navbar-pills">
+    <div class="container-fluid">
+      <div class="navbar-header">
+      <a class="navbar-brand" href="Start.html"><img src="AssignmentImage/HELPFit Logo.png" alt="logo" width="100" height="80">
+      </a>
+      </div>
+      
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left">
+          <li class="active"><a href="Login.html">Home</a></li>
+          <li><a href="Login.php">Trainer Session</a></li>
+          <li><a href="Login.php">Review</a></li>
+          <li><a href="Login.php">History</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="Login.php">Log In</a></li>
+          <li><a href="SignUp.php">Sign Up</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+    <!--/.container-fluid -->
+  </nav>
+</header>
+
+<!-- Slide Show -->
+<div class="slideshow">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="AssignmentImage/img1.jpg" style="width:100%">
+    <div class="text">Feel</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="AssignmentImage/img2.jpg" style="width:100%">
+    <div class="text">Try</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="AssignmentImage/img3.jpg" style="width:100%">
+    <div class="text">Pactice</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="AssignmentImage/img4.jpg" style="width:100%">
+    <div class="text">Routine</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>  
+</div>
+
+<br>
+<!-- Javascript for Slideshow-->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<br>
+<div class="container text-center">
+<p>Looking for a fitness center in Malaysia? You've come to the right place as our centers are equipped with advanced facilities that cater to all your needs and more. Join our gym in Malaysia today and experience workouts like never before. The journey to a new, healthier you awaits.
+<br><br>
+Reasons to Join HELPFit
+<br>
+Make every movement count. With just the right amount of training and motivation, we can help you reach your fitness goals. Fully furnished gyms and specially crafted exercise routines such as our Dynamic Movement Training will provide a constant challenge to better yourself. </p>
+</div>
+<br><br>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>Join Us!</h1>      
+    <p>Start your first experience here. Lets join us with a healty life.</p>
+    <button type="button" class="btn btn-primary btn-lg">Find out more</button>
+  </div>
+ </div>
+
+<br>
+
+</body>
+<footer class="container-pills text-center">
+HELPFit &copy; Copyright 2017</footer>
+</html>

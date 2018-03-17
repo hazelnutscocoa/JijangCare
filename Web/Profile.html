@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+	<title>Profile</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Bootstrap-->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="Profile.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--Include JQuery: necessary for Bootstrap plugins-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!--Include bootstrap library as needed-->
+  <script src="js/bootstrap.min.js"></script>
+
+<header>
+  <nav class="navbar navbar-pills">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="Home.html"><img src="AssignmentImage/HELPFit Logo.png" alt="logo" width="100" height="80">
+      </a>
+      </div>
+      
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left">
+          <li class="active"><a href="Home.html">Home</a></li>
+          <li><a href="TrainingSession.html">Trainer: Record Training Session</a></li>
+          <li><a href="RegisterTraining.html">Member: Register Training Session</a></li>
+          <li><a href="Review.html">Review</a></li>
+          <li><a href="History.html">History</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="Profile.html">Profile</a></li>
+          <li><a href="Start.html">Log Out</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+    <!--/.container-fluid -->
+  </nav>
+</header>
+<div class="container">
+    <h1>Edit Profile</h1>
+    <hr>
+  <div class="row">
+      <!-- left column -->
+      <div class="col-md-3">
+        <div class="text-center">
+          <img src="AssignmentImage/ava.png" class="avatar img-circle" alt="avatar" width="100" height="100">
+          <h6>Upload a different photo...</h6>
+          <input type="file" class="form-control">
+        </div>
+      </div>
+      <br>
+      <!-- edit form column -->
+      <div class="col-md-9 personal-info">
+        <div class="alert alert-info alert-dismissable">
+          <a class="panel-close close" data-dismiss="alert">×</a> 
+          Please make sure you <strong>.save changes.</strong> after edit.
+        </div>
+        <h3>Personal info</h3>
+        
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Full Name:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" placeholder="Your Full Name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Email:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" placeholder="Your Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Password:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="password" placeholder="Enter Your Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Confirm password:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="password" placeholder="Confirm Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Level:</label>
+            <div class="col-lg-8">
+              <select class="col-lg-3 control-label" id="level" name="level">
+                <option value="">Choose your Level</option>
+                <option value="Beginner">Beginner</option>
+                <option value="Advance">Advance</option>
+                <option value="Expert">Expert</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label"></label>
+            <div class="col-lg-8">
+              <input type="button" class="btn btn-primary" value="Save Changes">
+              <span></span>
+              <input type="reset" class="btn btn-default" value="Cancel">
+            </div>
+          </div>
+        </form>
+      </div>
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br>
+</body>
+<footer class="container-pills text-center">
+HELPFit &copy; Copyright 2017</footer>
+</html>
