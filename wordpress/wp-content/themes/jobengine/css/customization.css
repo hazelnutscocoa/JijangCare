@@ -1,22 +1,22 @@
 body,
 .wrapper {
-  background-color: #ffffff;
-  background-image: url(http://localhost/wordpress/wp-content/themes/jobengine/img/pattern.png);
+  background-color: #fff;
+  background-image: url();
   background-repeat: repeat;
 }
 footer,
 .bg-footer {
-  background: #E0E0E0;
-  background: -moz-linear-gradient(top,#d8d8d8 0%,#E0E0E0 15%,#E0E0E0 100%);
-  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#d8d8d8),color-stop(15%,#E0E0E0),color-stop(100%,#E0E0E0));
-  background: -webkit-linear-gradient(top,#d8d8d8 0%,#E0E0E0 15%,#E0E0E0 100%);
-  background: -o-linear-gradient(top,#d8d8d8 0%,#E0E0E0 15%,#E0E0E0 100%);
-  background: -ms-linear-gradient(top,#d8d8d8 0%,#E0E0E0 15%,#E0E0E0 100%);
-  background: linear-gradient(top,#d8d8d8 0%,#E0E0E0 15%,#E0E0E0 100%);
+  background: #F2F2F2;
+  background: -moz-linear-gradient(top,#eaeaea 0%,#F2F2F2 15%,#F2F2F2 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#eaeaea),color-stop(15%,#F2F2F2),color-stop(100%,#F2F2F2));
+  background: -webkit-linear-gradient(top,#eaeaea 0%,#F2F2F2 15%,#F2F2F2 100%);
+  background: -o-linear-gradient(top,#eaeaea 0%,#F2F2F2 15%,#F2F2F2 100%);
+  background: -ms-linear-gradient(top,#eaeaea 0%,#F2F2F2 15%,#F2F2F2 100%);
+  background: linear-gradient(top,#eaeaea 0%,#F2F2F2 15%,#F2F2F2 100%);
   color: #999999;
 }
 footer .copyright {
-  color: overlay(#E0E0E0,#000000);
+  color: overlay(#F2F2F2,#000000);
 }
 footer .menu-bottom a {
   color: #999999;
@@ -82,7 +82,7 @@ footer .menu-bottom a {
 }
 .widget_search input#s,
 .input-search-box {
-  background: #ffffff;
+  background: #fff;
   box-shadow: inset 0 1px 2px #d9d9d9;
   -moz-box-shadow: inset 0 1px 2px #d9d9d9;
   -webkit-box-shadow: inset 0 1px 2px #d9d9d9;
@@ -147,56 +147,56 @@ ul.list-company ul li,
   border-bottom: 1px solid #f2f2f2 !important;
 }
 .bg-main-header {
-  background: #505050;
-  background: -moz-linear-gradient(top,#5f5f5f 0%,#505050 90%,#4b4b4b 100%);
-  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#5f5f5f),color-stop(90%,#505050),color-stop(100%,#4b4b4b));
-  background: -webkit-linear-gradient(top,#5f5f5f 0%,#505050 90%,#4b4b4b 100%);
-  background: -o-linear-gradient(top,#5f5f5f 0%,#505050 90%,#4b4b4b 100%);
-  background: -ms-linear-gradient(top,#5f5f5f 0%,#505050 90%,#4b4b4b 100%);
-  background: linear-gradient(top,#5f5f5f 0%,#505050 90%,#4b4b4b 100%);
+  background: #383838;
+  background: -moz-linear-gradient(top,#474747 0%,#383838 90%,#333333 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#474747),color-stop(90%,#383838),color-stop(100%,#333333));
+  background: -webkit-linear-gradient(top,#474747 0%,#383838 90%,#333333 100%);
+  background: -o-linear-gradient(top,#474747 0%,#383838 90%,#333333 100%);
+  background: -ms-linear-gradient(top,#474747 0%,#383838 90%,#333333 100%);
+  background: linear-gradient(top,#474747 0%,#383838 90%,#333333 100%);
 }
 .category .menu-header-top li > a,
 .bg-btn-header {
-  background: #656565;
-  background: -moz-linear-gradient(top,#6c6c6c 0%,#656565 85%,#585858 100%);
-  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#6c6c6c),color-stop(85%,#656565),color-stop(100%,#585858));
-  background: -webkit-linear-gradient(top,#6c6c6c 0%,#656565 85%,#585858 100%);
-  background: -o-linear-gradient(top,#6c6c6c 0%,#656565 85%,#585858 100%);
-  background: -ms-linear-gradient(top,#6c6c6c 0%,#656565 85%,#585858 100%);
-  background: linear-gradient(top,#6c6c6c 0%,#656565 85%,#585858 100%);
-  box-shadow: 0 1px 2px #464646;
-  -moz-box-shadow: 0 1px 2px #464646;
-  -webkit-box-shadow: 0 1px 2px #464646;
+  background: #4d4d4d;
+  background: -moz-linear-gradient(top,#545454 0%,#4d4d4d 85%,#404040 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#545454),color-stop(85%,#4d4d4d),color-stop(100%,#404040));
+  background: -webkit-linear-gradient(top,#545454 0%,#4d4d4d 85%,#404040 100%);
+  background: -o-linear-gradient(top,#545454 0%,#4d4d4d 85%,#404040 100%);
+  background: -ms-linear-gradient(top,#545454 0%,#4d4d4d 85%,#404040 100%);
+  background: linear-gradient(top,#545454 0%,#4d4d4d 85%,#404040 100%);
+  box-shadow: 0 1px 2px #2e2e2e;
+  -moz-box-shadow: 0 1px 2px #2e2e2e;
+  -webkit-box-shadow: 0 1px 2px #2e2e2e;
 }
 .current-menu-item .bg-btn-header,
 .category .menu-header-top .current-menu-item a,
 .account .menu-header-top .selected a,
 .bg-btn-header:active {
-  background: #323232 !important;
-  background: -moz-linear-gradient(top,#464646 0%,#323232 100%) !important;
-  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#464646),color-stop(100%,#323232)) !important;
-  background: -webkit-linear-gradient(top,#464646 0%,#323232 100%) !important;
-  background: -o-linear-gradient(top,#464646 0%,#323232 100%) !important;
-  background: -ms-linear-gradient(top,#464646 0%,#323232 100%) !important;
-  background: linear-gradient(top,#464646 0%,#323232 100%) !important;
-  box-shadow: inset 0 2px 3px #323232;
-  -moz-box-shadow: inset 0 2px 3px #323232;
-  -webkit-box-shadow: inset 0 2px 3px #323232;
+  background: #1a1a1a !important;
+  background: -moz-linear-gradient(top,#2e2e2e 0%,#1a1a1a 100%) !important;
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#2e2e2e),color-stop(100%,#1a1a1a)) !important;
+  background: -webkit-linear-gradient(top,#2e2e2e 0%,#1a1a1a 100%) !important;
+  background: -o-linear-gradient(top,#2e2e2e 0%,#1a1a1a 100%) !important;
+  background: -ms-linear-gradient(top,#2e2e2e 0%,#1a1a1a 100%) !important;
+  background: linear-gradient(top,#2e2e2e 0%,#1a1a1a 100%) !important;
+  box-shadow: inset 0 2px 3px #1a1a1a;
+  -moz-box-shadow: inset 0 2px 3px #1a1a1a;
+  -webkit-box-shadow: inset 0 2px 3px #1a1a1a;
 }
 .header-technical .ver-line {
-  background-color: #484848;
+  background-color: #303030;
 }
 .main-header .slogan {
   color: #eeeeee;
-  text-shadow: 1px 0 0 #323232;
+  text-shadow: 1px 0 0 #1a1a1a;
 }
 body,
 .tinymce-style {
-  color: #555555;
+  color: #333;
 }
 .breadcrumb a,
 .breadcrumb span {
-  color: #555555;
+  color: #333;
 }
 .tinymce-style h1,
 .tinymce-style h2,
@@ -205,73 +205,73 @@ body,
 .tinymce-style h5,
 .tinymce-style h6,
 .job-detail .description h6 {
-  color: #484848;
+  color: #262626;
 }
 .heading-info .info .name,
 .widget .widget-title,
 .heading h1.title {
-  color: #3c3c3c;
+  color: #1a1a1a;
 }
 .widget ul.category-lists li a,
 .tinymce-style .description {
-  color: #555555;
+  color: #333;
 }
 .widget-select ul li a.active,
 .widget-select ul li a:hover {
-  border-color: #555555;
+  border-color: #333;
 }
 .heading-info .viewcount,
 .heading-info .date,
 .heading-info .date:before,
 .widget ul.category-lists li a span {
-  color: #959595;
+  color: #737373;
 }
 .heading-info .job-location:before,
 .heading-info .job-location,
 .main-column .list-jobs li .desc > div,
 .main-column .list-jobs li .desc > div a {
-  color: #7b7b7b;
+  color: #595959;
 }
 .list-alphabet li a {
-  color: #888888;
+  color: #666666;
 }
 .jobseeker .account-title a {
-  color: #888888;
+  color: #666666;
 }
 .jobseeker .account-title .menu a {
-  color: #555555;
+  color: #333;
 }
 .entry-blog #respond input[type="submit"],
 .bg-btn-action {
-  background: #e9806c;
-  background: -moz-linear-gradient(top,#ed9787 0%,#e9806c 90%,#e87863 100%);
-  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#ed9787),color-stop(90%,#e9806c),color-stop(100%,#e87863));
-  background: -webkit-linear-gradient(top,#ed9787 0%,#e9806c 90%,#e87863 100%);
-  background: -o-linear-gradient(top,#ed9787 0%,#e9806c 90%,#e87863 100%);
-  background: -ms-linear-gradient(top,#ed9787 0%,#e9806c 90%,#e87863 100%);
-  background: linear-gradient(top,#ed9787 0%,#e9806c 90%,#e87863 100%);
+  background: #f39482;
+  background: -moz-linear-gradient(top,#f6ac9e 0%,#f39482 90%,#f28c79 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f6ac9e),color-stop(90%,#f39482),color-stop(100%,#f28c79));
+  background: -webkit-linear-gradient(top,#f6ac9e 0%,#f39482 90%,#f28c79 100%);
+  background: -o-linear-gradient(top,#f6ac9e 0%,#f39482 90%,#f28c79 100%);
+  background: -ms-linear-gradient(top,#f6ac9e 0%,#f39482 90%,#f28c79 100%);
+  background: linear-gradient(top,#f6ac9e 0%,#f39482 90%,#f28c79 100%);
   font-family: "Quicksand";
   color: #eeeeee !important;
 }
 .entry-blog #respond input[type="submit"]:hover,
 .bg-btn-action:hover {
-  background: #eb8b79;
-  background: -moz-linear-gradient(top,#ef9e8f 0%,#eb8b79 90%,#e87863 100%);
-  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#ef9e8f),color-stop(90%,#eb8b79),color-stop(100%,#e87863));
-  background: -webkit-linear-gradient(top,#ef9e8f 0%,#e9806c 90%,#e87863 100%);
-  background: -o-linear-gradient(top,#ef9e8f 0%,#eb8b79 90%,#e87863 100%);
-  background: -ms-linear-gradient(top,#ef9e8f 0%,#eb8b79 90%,#e87863 100%);
-  background: linear-gradient(top,#ef9e8f 0%,#eb8b79 90%,#e87863 100%);
+  background: #f4a090;
+  background: -moz-linear-gradient(top,#f7b4a7 0%,#f4a090 90%,#f28c79 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f7b4a7),color-stop(90%,#f4a090),color-stop(100%,#f28c79));
+  background: -webkit-linear-gradient(top,#f7b4a7 0%,#f39482 90%,#f28c79 100%);
+  background: -o-linear-gradient(top,#f7b4a7 0%,#f4a090 90%,#f28c79 100%);
+  background: -ms-linear-gradient(top,#f7b4a7 0%,#f4a090 90%,#f28c79 100%);
+  background: linear-gradient(top,#f7b4a7 0%,#f4a090 90%,#f28c79 100%);
 }
 .entry-blog #respond input[type="submit"]:active,
 .bg-btn-action:active {
-  background: #e87863;
-  background: -moz-linear-gradient(top,#e87863 0%,#e9806c 10%,#ed9787 100%);
-  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#e87863),color-stop(10%,#e9806c),color-stop(100%,#ed9787));
-  background: -webkit-linear-gradient(top,#e87863 0%,#e9806c 10%,#ed9787 100%);
-  background: -o-linear-gradient(top,#e87863 0%,#e9806c 10%,#ed9787 100%);
-  background: -ms-linear-gradient(top,#e87863 0%,#e9806c 10%,#ed9787 100%);
-  background: linear-gradient(top,#e87863 0%,#e9806c 10%,#ed9787 100%);
+  background: #f28c79;
+  background: -moz-linear-gradient(top,#f28c79 0%,#f39482 10%,#f6ac9e 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f28c79),color-stop(10%,#f39482),color-stop(100%,#f6ac9e));
+  background: -webkit-linear-gradient(top,#f28c79 0%,#f39482 10%,#f6ac9e 100%);
+  background: -o-linear-gradient(top,#f28c79 0%,#f39482 10%,#f6ac9e 100%);
+  background: -ms-linear-gradient(top,#f28c79 0%,#f39482 10%,#f6ac9e 100%);
+  background: linear-gradient(top,#f28c79 0%,#f39482 10%,#f6ac9e 100%);
 }
 .bg-btn-action span {
   color: #eee;
@@ -281,49 +281,49 @@ body,
 .entry-blog .content .footer a,
 .entry-blog .content .header a.comment,
 .heading .technical a {
-  color: #E87863;
+  color: #F28C79;
 }
 .color-action {
-  color: #E87863;
+  color: #F28C79;
 }
 .main-column a,
 .main-column a:visited,
 .widget a,
 .widget a:visited {
-  color: #E87863;
+  color: #F28C79;
 }
 .list-alphabet li.active a {
-  color: #E87863;
+  color: #F28C79;
 }
 .modal-job .footer .forgot-pass-link {
-  color: #E87863;
+  color: #F28C79;
 }
 .bg-btn-hyperlink {
-  background: #e9806c;
-  background: -moz-linear-gradient(top,#ed9787 0%,#e9806c 90%,#e87863 100%);
-  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#ed9787),color-stop(90%,#e9806c),color-stop(100%,#e87863));
-  background: -webkit-linear-gradient(top,#ed9787 0%,#e9806c 90%,#e87863 100%);
-  background: -o-linear-gradient(top,#ed9787 0%,#e9806c 90%,#e87863 100%);
-  background: -ms-linear-gradient(top,#ed9787 0%,#e9806c 90%,#e87863 100%);
-  background: linear-gradient(top,#ed9787 0%,#e9806c 90%,#e87863 100%);
+  background: #f39482;
+  background: -moz-linear-gradient(top,#f6ac9e 0%,#f39482 90%,#f28c79 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f6ac9e),color-stop(90%,#f39482),color-stop(100%,#f28c79));
+  background: -webkit-linear-gradient(top,#f6ac9e 0%,#f39482 90%,#f28c79 100%);
+  background: -o-linear-gradient(top,#f6ac9e 0%,#f39482 90%,#f28c79 100%);
+  background: -ms-linear-gradient(top,#f6ac9e 0%,#f39482 90%,#f28c79 100%);
+  background: linear-gradient(top,#f6ac9e 0%,#f39482 90%,#f28c79 100%);
 }
 .post-a-job .step ul li.selected {
   background: #ffffff;
 }
 .selected .btn-select button {
-  background: #f2b2a6;
-  color: #E87863;
+  background: #f9c8bf;
+  color: #F28C79;
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
 }
 ::-moz-selection {
-  background: #ef9e8f;
+  background: #f7b4a7;
   color: #ffffff;
   text-shadow: none;
 }
 ::selection {
-  background: #ef9e8f;
+  background: #f7b4a7;
   color: #ffffff;
   text-shadow: none;
 }
@@ -353,5 +353,5 @@ body,
   font-size: 14px;
 }
 a {
-  color: #E87863;
+  color: #F28C79;
 }
