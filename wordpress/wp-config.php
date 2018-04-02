@@ -89,3 +89,6 @@ if ( !defined('ABSPATH') )
 require_once(ABSPATH . 'wp-settings.php');
 
 define('FS_METHOD','direct');
+add_filter('https_ssl_verify', '__return_false');
+
+add_filter('https_local_ssl_verify', '__return_false');
